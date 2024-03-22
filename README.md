@@ -1,36 +1,28 @@
-# [JSL04] Submission: Monster Ternary Operator
 
-You will:
-1. Use the provided Starter Code Repository.
-2. Code your solution.
-3. Commit changes to your GitHub repository.
-4. Submit the GitHub Repository Link to the LMS [JSL04] Submission Project Tab.
+# Monster Ternary Operator Project
 
-Check out the practice challenges on Scrimba here: https://scrimba.com/playlist/p9bvd5QH3
+## Challenge Description
 
-**Challenge Scenario:** In this coding exercise, you will work with the Monster Ternary Operator. You'll use ternary operators to make decisions based on various scenarios involving Monster Energy drinks.
+I used ternary operators to programme a computer to make decisions based on various scenarios involving Monster Energy drinks. In each challenge, the ternary operator decides between two options based on a condition, demonstrating its utility for conditional logic.
 
-In each of these challenges, the ternary operator is used to decide between two options based on a condition, demonstrating its utility for concise conditional logic. Remember that while ternaries can make the code more succinct, they should be used judiciously to maintain readability, especially for more complex conditions.
+## Challenge Scenarios
 
-## What You Need to Do:
+### Challenge 1
 
-1. Clone the provided Starter Code Repository to your local development environment (e.g., VSCode): https://github.com/CodeSpace-Academy/Module_4_StudentNo_Classcode_Group_Name-Surname_JSL04 
-2. Open the cloned project in your code editor.
-3. Code your solution for each of the challenges as per the provided instructions.
-4. Commit your changes to your local Git repository with meaningful commit messages.
-5. Push your local Git repository to your GitHub account.
-6. Verify that the changes have been successfully pushed to your GitHub repository.
+I used ternary operators to determine whether the user prefers a "Regular" or "Sugar-free" drink. If the preference is not set (undefined), set "Regualar" as a default.
 
-## What You Need to Include:
+### Challenge 2
 
-1. Ensure that your code includes the necessary modifications to meet the challenge requirements.
-2. Your GitHub repository should contain the updated code files.
+using the variable that track the number of Monster Energy cans left in the fridge. I used ternary operators to determine whether it's time to restock or if we're still stocked based on the number of cans left. If the number of cans is less than 5, print "Time to restock!"; otherwise, print "We're  Stocked!" 
 
-## How We'll Assess Your Work:
+### Challenge 3
 
-1. We will review your GitHub repository to ensure that it contains the updated code files.
-2. We will assess the modifications made to the code to verify that they effectively meet the challenge requirements.
-3. Successful completion of the project will involve implementing the ternary logic as per the provided instructions.
-4. We will consider the commit history and meaningful commit messages to evaluate your coding process.
+Based on the current heart rate, determine if the user should drink a Monster Energy drink to boost their workout. If the heart rate is below 100 bpm, print "Boost needed!";otherwise, print "Energy levels are high!".
 
-Please follow the provided steps and guidelines to complete the Monster Ternary Operator challenge effectively. Your ability to use ternary operators for conditional logic is a valuable skill, and we look forward to reviewing your work.
+### challenge 4
+
+Monster Energy drink are best served cold. Based on the current temperature, I used ternary operator to determine whether it's suitable to have a Monster Energy drink. If the temperature is below or equal to 5°C, print "Chilled to perfection!"; otherwise, print "Needs a cooler!"
+
+### Challenge 5
+
+Determine if its a good idea to have a monster Energy drink based on the current hour. If It's between 7am and midnight (24-hour format), print "Unleash the beast!"; otherwise, print "Better to stick to water".
